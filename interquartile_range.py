@@ -37,4 +37,4 @@ if __name__ == '__main__':
     else:
         q3 = find_median(data[(len(data)//2) + 1:])
 
-    print("{0:.1f}".format(q3 - q1))
+    print("{0:.2f}".format(q3 - q1))
