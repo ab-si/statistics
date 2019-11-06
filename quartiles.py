@@ -17,6 +17,7 @@ if __name__ == '__main__':
     '''
     data = list(map(int, input().split()))
     data.sort()
+    n = len(data)
     print(find_median(data[:n//2]))
     print(find_median(data))
     if n%2 == 0:
